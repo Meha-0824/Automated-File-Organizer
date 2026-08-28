@@ -1,11 +1,11 @@
 # Automated-File-Organizer
-##COMPANY: CODTECH IT SOLUTIONS
-##NAME: MEHA JABEEN A M
-##INTERN ID: CITS7879 
-##DOMAIN: PYTHON PROGRAMMING 
-##DURATION: 4 WEEKS
+# COMPANY: CODTECH IT SOLUTIONS
+# NAME: MEHA JABEEN A M
+# INTERN ID: CITS7879 
+# DOMAIN: PYTHON PROGRAMMING 
+# DURATION: 4 WEEKS
 
-##DESCRIPTION
+# DESCRIPTION
 
 The Automated File Organizer is an intermediate-level Python desktop application developed to automate the process of organizing files within a selected folder. The application provides a graphical user interface using Tkinter, allowing users to select a directory and automatically categorize files based on their file extensions.
 
@@ -15,7 +15,7 @@ The application also includes duplicate-file handling, which prevents existing f
 
 This project demonstrates practical implementation of Python programming, GUI development, file handling, directory management, automation, file classification, exception handling, and user interaction.
 
-##KEY FEATURES
+# KEY FEATURES
 1. Folder Selection
 
 The application provides a Browse option that allows the user to select the folder that needs to be organized.
@@ -87,7 +87,7 @@ Shutil Module – Moving files between directories
 TTK Treeview – Displaying file-processing results
 File Dialog – Selecting folders through the graphical interface
 MessageBox – Displaying notifications and error messages
-##PROJECT OBJECTIVES
+# PROJECT OBJECTIVES
 
 The main objectives of the project are:
 
@@ -100,13 +100,13 @@ To provide a simple and user-friendly graphical interface.
 To display organization statistics and processing results.
 To demonstrate practical Python automation and file-handling concepts.
 
-##PROJECT SCOPE
+# PROJECT SCOPE
 
 The project focuses on creating a practical desktop automation utility that simplifies file management. It is particularly useful for folders containing large numbers of files with different extensions.
 
 The application helps users maintain a structured directory by automatically separating files into logical categories. It can be used as a foundation for more advanced file-management applications that support customizable rules, scheduled organization, recursive folder processing, and detailed file analytics.
 
-##APPLICATION WORKFLOW
+ # APPLICATION WORKFLOW
 Step 1 – Launch the Application
 
 The user starts the Automated File Organizer.
@@ -161,7 +161,7 @@ Step 10 – Display Summary
 
 The application reports the total number of files detected and successfully organized.
 
-FILE CATEGORIES
+# FILE CATEGORIES
 Category	Example Extensions
 Documents	.pdf, .doc, .docx, .txt, .xls, .xlsx, .ppt, .pptx, .csv
 Images	.jpg, .jpeg, .png, .gif, .bmp, .webp, .svg, .tiff
@@ -184,13 +184,13 @@ AUTOMATED-FILE-ORGANIZER/
 
 The complete application is implemented in a single Jupyter Notebook, making the project easy to execute, understand, and submit through GitHub.
 
-##OUTPUT
+# OUTPUT
 
 The Automated File Organizer successfully scans the selected directory, classifies files according to their extensions, creates category folders, and moves the files into their appropriate locations.
 <img width="1112" height="812" alt="Screenshot 2026-08-28 211119" src="https://github.com/user-attachments/assets/5dbf8dcc-cbee-42ae-b628-72d98a7e6c63" />
 
 
-##TECHNICAL IMPLEMENTATION
+# TECHNICAL IMPLEMENTATION
 Tkinter GUI
 
 Tkinter is used to develop the application's graphical interface, including buttons, labels, folder-selection controls, status information, and the file-processing table.
@@ -219,7 +219,7 @@ Output Monitoring
 
 A Treeview table displays the file name, extension, category, and processing status, allowing the user to monitor the organization results.
 
-##ADVANTAGES
+# ADVANTAGES
 Reduces manual file-management effort.
 Saves time when organizing folders containing different file types.
 Improves directory structure and accessibility.
@@ -228,13 +228,13 @@ Prevents accidental overwriting of duplicate files.
 Provides clear processing feedback.
 Offers a simple graphical user interface.
 Demonstrates practical Python automation concepts.
-##LIMITATIONS
+# LIMITATIONS
 
 The current version primarily classifies files using their extensions. Therefore, files with the same extension are placed in the same category regardless of their internal content.
 
 The application processes files in the selected directory and does not automatically organize files within nested subfolders.
 
-##FUTURE ENHANCEMENTS
+# FUTURE ENHANCEMENTS
 
 The application can be further enhanced with:
 
@@ -256,7 +256,7 @@ Since the application moves files from one directory to another, it is recommend
 
 Users should maintain backups of important data before performing automated file operations.
 
-##DEVELOPMENT STANDARDS
+# DEVELOPMENT STANDARDS
 
 The project follows basic professional development practices, including:
 
@@ -278,7 +278,7 @@ README File – Complete project documentation
 Screenshots – Application interface and output images
 Documentation – Technical and project information
 
-##CONCLUSION
+# CONCLUSION
 
 The Automated File Organizer successfully demonstrates the use of Python to automate repetitive file-management tasks through an interactive graphical application. By analyzing file extensions and automatically categorizing files, the application provides a simple and efficient solution for maintaining an organized directory structure.
 
@@ -286,6 +286,6 @@ The project combines Python programming, Tkinter GUI development, file handling,
 
 The project also provides a strong foundation for future enhancements such as recursive folder processing, scheduled organization, customizable categories, detailed analytics, activity logging, and restoration functionality.
 
-PROJECT RESULT
+# PROJECT RESULT
 
 Result: The Automated File Organizer successfully classifies and organizes files into appropriate category folders based on their extensions while providing a clear graphical interface and organization summary.
